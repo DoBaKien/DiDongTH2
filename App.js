@@ -11,13 +11,13 @@ export default function App() {
     if(userName == "Abc123" && passWord == "123456"){
       console.log('Dang nhap thanh cong');
       Alert.alert(
-       `Thành công ${userName}`
+       `Đăng nhập thành công! ${userName}`
      )
     }
     else{
       console.log('Dang nhap khong thanh cong');
       Alert.alert(
-        `sai ${userName}`
+        `Đăng nhập thất bại`
       )
     }
 
